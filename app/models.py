@@ -1,9 +1,14 @@
 from datetime import datetime
 from hashlib import md5
-from app import app, db, login
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 import jwt
+from app import app, db, login
+import re
+
+def slugify(s):
+    pattern = r'[ˆ\w+]'
+    return re.sub(pattern, '-', s)
 
 
 class User(UserMixin, db.Model):
@@ -59,3 +64,21 @@ class Post(db.Model):
     def __repr__(self):
         return '<Post {}>'.format(self.body)
 
+class Product(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(140))
+    slug = db.Column(db.String(140), unique=True)
+    body = db.Column(db.Text)
+    picture = db.Column(db.String(140))
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+
+    def __init__(self, *args, **kwargs):
+        super(Product, self).__init__(*args, **kwargs)
+        self.generate_slug()
+
+    def generate_slug(self):
+        if self.title:
+            self.slug = slugify(self.title)
+
+    def __repr__(self):
+        return '<Product id: {}, title: {}, picture: {}>'.format(self.id, self.title, self.picture)

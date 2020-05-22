@@ -9,6 +9,7 @@ from config import Config
 from flask_bootstrap import Bootstrap
 from flask_mail import Mail
 
+from app.products.blueprint import products
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -18,6 +19,8 @@ login = LoginManager(app)
 login.login_view = 'login'
 mail = Mail(app)
 bootstrap = Bootstrap(app)
+
+app.register_blueprint(products, url_prefix='/catalog')
 
 if not app.debug:
     if app.config['MAIL_SERVER']:

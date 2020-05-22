@@ -2,24 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e551bfa5-5866-4ef4-a4ff-6262282521cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/templates/products/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/products/templates/products/prod_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bed2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bed3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/zv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/bed2.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/bed2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/bed3.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/bed3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/microblog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/microblog.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/microblog.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/microblog.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/microblog.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/logs/microblog.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microblog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/connectors/mxodbc.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/connectors/mxodbc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/engine/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/engine/result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/ext/associationproxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/ext/associationproxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/ext/automap.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/ext/automap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/orm/loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/orm/loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/selectable.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/selectable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +61,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1avqrmUh4lqVfsKxSg0rgLhVUZy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,6 +80,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -72,6 +90,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/products/templates/products" />
       <recent name="$PROJECT_DIR$/app/img" />
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
@@ -117,7 +136,13 @@
       <workItem from="1588425783929" duration="3173000" />
       <workItem from="1588757133525" duration="6338000" />
       <workItem from="1588830829044" duration="824000" />
-      <workItem from="1588831830930" duration="658000" />
+      <workItem from="1588831830930" duration="1839000" />
+      <workItem from="1588972395378" duration="24000" />
+      <workItem from="1589889174478" duration="5068000" />
+      <workItem from="1589902116312" duration="205000" />
+      <workItem from="1589913010582" duration="6636000" />
+      <workItem from="1589959921269" duration="2576000" />
+      <workItem from="1590166818735" duration="267000" />
     </task>
     <servers />
   </component>
@@ -125,9 +150,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1588346820766">
+    <state x="465" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1588972395985">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="465" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.793@0.23.1440.793" timestamp="1588346820766" />
+    <state x="465" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.793@0.23.1440.793" timestamp="1588972395985" />
   </component>
 </project>

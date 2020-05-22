@@ -138,3 +138,22 @@ def edit_profile():
         form.about_me.data = current_user.about_me
     return render_template('edit_profile.html', title='Edit Profile',
                            form=form)
+
+
+@app.route('/<slug>/edit_product', methods=['GET', 'POST'])
+def edit_product(slug):
+    product = Product.query.filter(Product.slug==slug).first()
+
+    if request.method == 'POST':
+        form = ProductForm(formdata=request.form, obj=product)
+        form.populate_obj(product)
+        db.session.commit()
+
+        return redirect(url_for('product.product_detail'), slug=product.slug)
+
+    form = ProductForm(obj=product)
+    return render_template('edit.html',post=product, form=form)
+
+@app.route('/<slug>')
+def post_detail(slug):
+    post = Post.query.filter(Post.slug==slug).first()

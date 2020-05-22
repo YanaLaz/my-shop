@@ -36,3 +36,8 @@ Traceback (most recent call last):
     <img src="{{url_for('static', filename = 'bed2.jpg'}}" width="200" height="150" alt="bed"><br>
 jinja2.exceptions.TemplateSyntaxError: unexpected '}', expected ')'
 2020-05-07 09:18:32,916 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
+2020-05-07 10:14:07,683 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
+2020-05-07 10:51:14,417 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
+2020-05-19 16:23:51,493 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
+2020-05-19 16:35:30,828 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
+2020-05-19 21:40:55,752 INFO: Shop startup [in /Users/yanalazareva/Documents/myshop/myshop/app/__init__.py:48]
